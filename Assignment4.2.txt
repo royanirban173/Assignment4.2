@@ -1,0 +1,12 @@
+def functtolen(inpLst):
+    opLst=[]
+    for i in inpLst:
+        opLst.append(len(i))
+    return opLst
+    
+        
+lst=['APPLE','CAT','DOG','ELEPHANT','FROG','GIRL','HEN']
+
+functtolen(lst)
+
+Output: [5, 3, 3, 8, 4, 4, 3]
